@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Camera, Maximize2, X, ChevronLeft, ChevronRight, Tag } from 'lucide-react';
 import Image from 'next/image';
+import { formatImgUrl } from '@/lib/api';
 
 export interface GalleryItem {
   id: string;
@@ -95,12 +96,10 @@ export default function Gallery({ gallery }: GalleryProps) {
               className="glass-panel rounded-2xl overflow-hidden border-white/10 hover:border-brand-cyan/40 transition-all duration-300 cursor-pointer group flex flex-col"
             >
               <div className="relative h-64 w-full bg-dark-card overflow-hidden">
-                <Image
-                  src={item.image}
+                <img
+                  src={formatImgUrl(item.image)}
                   alt={item.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <div className="p-3 rounded-full bg-brand-500/80 text-white backdrop-blur-md">
@@ -162,12 +161,10 @@ export default function Gallery({ gallery }: GalleryProps) {
           {/* Image & Caption Container */}
           <div className="max-w-5xl w-full flex flex-col items-center space-y-4 max-h-[90vh]">
             <div className="relative w-full h-[65vh] rounded-2xl overflow-hidden bg-dark-card border border-white/10">
-              <Image
-                src={activeItem.image}
+              <img
+                src={formatImgUrl(activeItem.image)}
                 alt={activeItem.title}
-                fill
-                className="object-contain"
-                priority
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="text-center space-y-1 max-w-2xl">

@@ -1,7 +1,7 @@
 'use client';
 
 import { ArrowRight, Trophy, Download, Linkedin, Mail, Github, Sparkles, Brain, Code } from 'lucide-react';
-import Image from 'next/image';
+import { formatImgUrl } from '@/lib/api';
 
 interface HeroProps {
   about: {
@@ -117,12 +117,10 @@ export default function Hero({ about, socials }: HeroProps) {
               <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-brand-cyan via-brand-500 to-indigo-500 opacity-50 group-hover:opacity-80 blur-xl transition duration-500" />
               <div className="relative rounded-3xl overflow-hidden glass-panel border-brand-cyan/40 p-3 shadow-2xl shadow-brand-cyan/20 ring-1 ring-brand-cyan/30">
                 <div className="relative h-[460px] w-full rounded-2xl overflow-hidden bg-dark-card flex items-center justify-center">
-                  <Image
-                    src={about.profileImage || '/portfolio/uploads/anushka-profile-knee-studio.jpg'}
+                  <img
+                    src={formatImgUrl(about.profileImage || '/uploads/anushka-profile-knee-studio.jpg')}
                     alt="Tatapudi Anushka"
-                    fill
-                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    priority
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/90 via-transparent to-transparent opacity-80" />
                   

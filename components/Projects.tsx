@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Rocket, ExternalLink, Github, ChevronRight, X, CheckCircle, Lightbulb, AlertTriangle, GraduationCap } from 'lucide-react';
 import Image from 'next/image';
+import { formatImgUrl } from '@/lib/api';
 
 export interface Project {
   id: string;
@@ -56,11 +57,10 @@ export default function Projects({ projects }: ProjectsProps) {
             >
               {/* Image Container */}
               <div className="relative h-64 w-full overflow-hidden bg-dark-card">
-                <Image
-                  src={project.image || '/portfolio/uploads/quantix-presentation-slide.png'}
+                <img
+                  src={formatImgUrl(project.image || '/uploads/quantix-presentation-slide.png')}
                   alt={project.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-card via-transparent to-transparent opacity-90" />
                 <div className="absolute top-4 left-4">
@@ -163,11 +163,10 @@ export default function Projects({ projects }: ProjectsProps) {
               
               {/* Image Preview */}
               <div className="relative h-72 w-full rounded-2xl overflow-hidden bg-dark-card border border-white/10">
-                <Image
-                  src={selectedProject.image || '/uploads/quantix-presentation-slide.png'}
+                <img
+                  src={formatImgUrl(selectedProject.image || '/uploads/quantix-presentation-slide.png')}
                   alt={selectedProject.title}
-                  fill
-                  className="object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
 

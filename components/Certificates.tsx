@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Award, ExternalLink, Maximize2, X, Calendar, CheckCircle2 } from 'lucide-react';
 import Image from 'next/image';
+import { formatImgUrl } from '@/lib/api';
 
 export interface Certificate {
   id: string;
@@ -54,11 +55,10 @@ export default function Certificates({ certificates }: CertificatesProps) {
                 onClick={() => setSelectedCert(cert)}
                 className="relative h-52 w-full overflow-hidden bg-dark-card cursor-pointer group-hover:opacity-90 transition-opacity"
               >
-                <Image
-                  src={cert.image || '/uploads/ibm-gen-ai-certificate.png'}
+                <img
+                  src={formatImgUrl(cert.image || '/uploads/ibm-gen-ai-certificate.png')}
                   alt={cert.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <div className="p-3 rounded-full bg-brand-500/80 text-white backdrop-blur-md">
@@ -128,11 +128,10 @@ export default function Certificates({ certificates }: CertificatesProps) {
             </div>
 
             <div className="relative h-[60vh] w-full rounded-2xl overflow-hidden bg-dark-card border border-white/10">
-              <Image
-                src={selectedCert.image}
+              <img
+                src={formatImgUrl(selectedCert.image)}
                 alt={selectedCert.title}
-                fill
-                className="object-contain"
+                className="w-full h-full object-contain"
               />
             </div>
 

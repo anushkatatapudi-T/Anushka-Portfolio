@@ -1,7 +1,8 @@
 'use client';
 
-import { Briefcase, Building2, Calendar, CheckCircle2, Users, ArrowUpRight } from 'lucide-react';
+import { Briefcase, Building2, Calendar, CheckCircle2 } from 'lucide-react';
 import Image from 'next/image';
+import { formatImgUrl } from '@/lib/api';
 
 export interface ExperienceItem {
   id: string;
@@ -48,11 +49,10 @@ export default function Experience({ experience }: ExperienceProps) {
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-white/10 pb-6">
                 <div className="flex items-center space-x-4">
                   <div className="relative w-14 h-14 rounded-2xl overflow-hidden bg-brand-500/10 border border-brand-500/20 flex items-center justify-center flex-shrink-0">
-                    <Image
-                      src={exp.logo || '/uploads/specanciens-award.png'}
+                    <img
+                      src={formatImgUrl(exp.logo || '/uploads/specanciens-award.png')}
                       alt={exp.organization}
-                      fill
-                      className="object-cover"
+                      className="w-full h-full object-cover"
                     />
                   </div>
                   <div>

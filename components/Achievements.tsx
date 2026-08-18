@@ -1,6 +1,7 @@
 'use client';
 
-import { Trophy, Calendar, Award, Star, Sparkles, CheckCircle } from 'lucide-react';
+import { Trophy, Calendar, Award, Sparkles, Building2 } from 'lucide-react';
+import { formatImgUrl } from '@/lib/api';
 import Image from 'next/image';
 
 export interface Achievement {
@@ -74,11 +75,10 @@ export default function Achievements({ achievements }: AchievementsProps) {
             >
               {/* Image */}
               <div className="relative h-48 sm:h-full w-full sm:w-44 rounded-xl overflow-hidden bg-dark-card flex-shrink-0 border border-white/10">
-                <Image
-                  src={ach.image || '/uploads/quantix-3rd-prize.png'}
+                <img
+                  src={formatImgUrl(ach.image || '/uploads/quantix-3rd-prize.png')}
                   alt={ach.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 

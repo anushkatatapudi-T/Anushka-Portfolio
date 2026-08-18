@@ -2,8 +2,7 @@
 
 import { useState } from 'react';
 import { UploadCloud, Image as ImageIcon, X, Loader2 } from 'lucide-react';
-import Image from 'next/image';
-import { apiFetch } from '@/lib/api';
+import { apiFetch, formatImgUrl } from '@/lib/api';
 
 interface ImageUploaderProps {
   value: string;
@@ -60,7 +59,7 @@ export default function ImageUploader({ value, onChange, label = 'Upload Image' 
 
       {value ? (
         <div className="relative w-full h-44 rounded-2xl overflow-hidden bg-dark-card border border-white/10 group">
-          <Image src={value} alt="Preview" fill className="object-cover" />
+          <img src={formatImgUrl(value)} alt="Preview" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-3">
             <label className="px-3 py-1.5 rounded-lg bg-brand-500 text-white text-xs font-semibold cursor-pointer hover:bg-brand-600 transition-colors">
               Replace

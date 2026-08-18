@@ -28,7 +28,7 @@ export async function POST(request: Request) {
     const filePath = path.join(uploadDir, filename);
     fs.writeFileSync(filePath, buffer);
 
-    return NextResponse.json({ url: `/portfolio/uploads/${filename}` });
+    return NextResponse.json({ url: `/uploads/${filename}` });
   } catch (error) {
     return NextResponse.json({ error: 'Failed to upload image' }, { status: 500 });
   }
