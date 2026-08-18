@@ -1,0 +1,357 @@
+{
+  "about": {
+    "name": "Tatapudi Anushka",
+    "title": "Computer Science Engineering Student & Aspiring AI/ML Engineer",
+    "shortBio": "I build web applications, explore AI-powered solutions, and continuously improve my technical skills through hands-on projects, competitions, certifications, and real-world experiences.",
+    "fullBio": "I am a Computer Science Engineering student at St. Peter's Engineering College (2025–2029) driven by a passion for Web Development, Python programming, and Artificial Intelligence. Through active involvement in technical events, hackathons, and project teams like SPECIANCIENS, I focus on solving practical problems, collaborating with peers, and building impactful digital applications.",
+    "profileImage": "/portfolio/uploads/anushka-profile-knee-studio.jpg",
+    "careerGoal": "Aspiring AI/ML Engineer",
+    "currentInterests": [
+      "Python",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Web Development"
+    ]
+  },
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/anushka-tatapudi1312/",
+    "github": "https://github.com/anushkatatapudi-T/Python-practice-questions",
+    "email": "anushkatatapudi@gmail.com",
+    "resumeUrl": "/portfolio/uploads/resume-anushka-tatapudi.pdf"
+  },
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "AI Life Decision Simulator",
+      "type": "Web Application",
+      "shortDescription": "An interactive web application that simulates the outcomes of different life and career decisions using AI-driven logic.",
+      "fullDescription": "The AI Life Decision Simulator is an interactive web-based tool created to assist students and individuals in evaluating complex life choices, academic pathways, and career trajectories. By modeling conditional decision trees and smart decision logic, the application visualizes short-term and long-term consequences of different career choices.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "image": "/portfolio/uploads/quantix-presentation-slide.png",
+      "liveUrl": "https://student-career-app.netlify.app",
+      "githubUrl": "https://github.com/anushkatatapudi-T/Python-practice-questions",
+      "contribution": "End-to-end development of interactive user interface, decision calculation logic, and responsive UI design.",
+      "features": [
+        "Interactive decision choices",
+        "Real-time scenario simulation",
+        "Career path visualization",
+        "Responsive client-side logic"
+      ],
+      "challenges": [
+        "Designing intuitive UI flows for branching decision trees without backend complexity",
+        "Ensuring smooth responsive layout across mobile and desktop devices"
+      ],
+      "learned": [
+        "Front-end state management in standard JavaScript",
+        "Designing user-centric logic flow for interactive decision support tools"
+      ],
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "proj-2",
+      "title": "SA // BASECAMP",
+      "organization": "SPECIANCIENS — The Alumni Association of St. Peter's Engineering College",
+      "type": "Web Platform",
+      "shortDescription": "A web platform developed for SPECIANCIENS to support alumni-student engagement, mentorship, and career networking.",
+      "fullDescription": "SA // BASECAMP serves as the digital bridge connecting current engineering students with alumni of St. Peter's Engineering College. It streamlines alumni involvement, mentorship initiatives, student project showcases, and industry guidance programs.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP Platform Integrations"
+      ],
+      "image": "/portfolio/uploads/specanciens-award.png",
+      "liveUrl": "https://cgp.specanciens.com",
+      "githubUrl": "",
+      "contribution": "Projects Team involvement, front-end development, platform features, and student-alumni engagement workflows.",
+      "features": [
+        "Alumni mentorship portal",
+        "Student project submission",
+        "Event notifications & networking",
+        "Career and industry guidance hub"
+      ],
+      "challenges": [
+        "Structuring a cohesive layout suitable for both student viewers and alumni professionals",
+        "Collaborating effectively within a multi-member project team"
+      ],
+      "learned": [
+        "Team-based web development workflow",
+        "Designing student-alumni engagement features for institutional platforms"
+      ],
+      "status": "published",
+      "order": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "Python",
+      "category": "Programming",
+      "icon": "Code2",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "id": "skill-8",
+      "name": "SQL",
+      "category": "Programming",
+      "icon": "Database",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "id": "skill-2",
+      "name": "HTML",
+      "category": "Web Development",
+      "icon": "FileCode",
+      "order": 3,
+      "visible": true
+    },
+    {
+      "id": "skill-3",
+      "name": "CSS",
+      "category": "Web Development",
+      "icon": "Palette",
+      "order": 4,
+      "visible": true
+    },
+    {
+      "id": "skill-4",
+      "name": "JavaScript",
+      "category": "Web Development",
+      "icon": "Terminal",
+      "order": 5,
+      "visible": true
+    },
+    {
+      "id": "skill-5",
+      "name": "React",
+      "category": "Frameworks",
+      "icon": "Atom",
+      "order": 6,
+      "visible": true
+    },
+    {
+      "id": "skill-9",
+      "name": "Git & GitHub",
+      "category": "Tools",
+      "icon": "GitBranch",
+      "order": 8,
+      "visible": true
+    },
+    {
+      "id": "skill-7",
+      "name": "Microsoft Excel",
+      "category": "Tools",
+      "icon": "Table",
+      "order": 9,
+      "visible": true
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-1",
+      "title": "Introduction to Generative AI",
+      "issuer": "IBM SkillsBuild",
+      "date": "2026-02-10",
+      "credentialId": "ALM-COURSE_4058859",
+      "credentialUrl": "",
+      "image": "/portfolio/uploads/ibm-gen-ai-certificate.png",
+      "category": "AI / ML",
+      "description": "Completed 4-hour comprehensive course covering core principles of Generative AI, foundational models, prompt engineering, and applications.",
+      "status": "published"
+    },
+    {
+      "id": "cert-2",
+      "title": "Digital Application Fundamentals (STEM)",
+      "issuer": "FutureSkills Prime / NASSCOM IT-ITeS SSC",
+      "date": "2026-03-16",
+      "credentialId": "FSP-STEM-2026",
+      "credentialUrl": "",
+      "image": "/portfolio/uploads/ibm-gen-ai-certificate.png",
+      "category": "Software Engineering",
+      "description": "Industry-recognized certificate in Digital Application Fundamentals focusing on STEM software principles.",
+      "status": "published"
+    },
+    {
+      "id": "cert-3",
+      "title": "GENOS'26 — Certificate of Participation",
+      "issuer": "Department of Chemical Engineering, JNTUH UCESTH",
+      "date": "2026-02-15",
+      "credentialId": "",
+      "credentialUrl": "",
+      "image": "/portfolio/uploads/specanciens-award.png",
+      "category": "Technical Symposium",
+      "description": "Participated in the Trivia Quiz competition during the National Level Technical Symposium GENOS'26 organized by JNTUH UCESTH.",
+      "status": "published"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "3rd Prize — Quantix",
+      "event": "Quantix (National Mathematics Day)",
+      "organization": "St. Peter's Engineering College - Department of Mathematics",
+      "description": "Awarded 3rd Prize for technical presentation on 'Mathematics in Smart Games using AI' demonstrating mathematical models in game AI.",
+      "date": "2025-12-22",
+      "image": "/portfolio/uploads/quantix-3rd-prize.png",
+      "category": "Awards",
+      "status": "published"
+    },
+    {
+      "id": "ach-2",
+      "title": "Best Performing Member",
+      "event": "Industry Awareness Program",
+      "organization": "SPECIANCIENS — Alumni Association of St. Peter's Engineering College",
+      "description": "Recognized with Certificate of Achievement as Best Performing Member for outstanding contributions to the Projects Team.",
+      "date": "2026-01-20",
+      "image": "/portfolio/uploads/specanciens-award.png",
+      "category": "Recognition",
+      "status": "published"
+    },
+    {
+      "id": "ach-3",
+      "title": "MEGA GEN-AI HACK-A-THON 2026",
+      "event": "MEGA GEN-AI HACK-A-THON 2026",
+      "organization": "St. Peter's Engineering College & Industry Partners",
+      "description": "Actively participated in building generative AI prototypes and solutions under hackathon deadlines.",
+      "date": "2026-02-05",
+      "image": "/portfolio/uploads/quantix-presentation-speaking.png",
+      "category": "Hackathons",
+      "status": "published"
+    },
+    {
+      "id": "ach-4",
+      "title": "GENOS'26 Trivia Quiz Contestant",
+      "event": "GENOS'26 National Technical Symposium",
+      "organization": "Department of Chemical Engineering, JNTUH UCESTH",
+      "description": "Participated in the competitive technical trivia quiz at JNTUH UCESTH symposium.",
+      "date": "2026-02-15",
+      "image": "/portfolio/uploads/specanciens-award.png",
+      "category": "Competitions",
+      "status": "published"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Quantix Award Ceremony",
+      "category": "Awards",
+      "image": "/portfolio/uploads/quantix-3rd-prize.png",
+      "caption": "Receiving 3rd Prize award for Quantix presentation on 'Mathematics in Smart Games using AI'",
+      "visible": true
+    },
+    {
+      "id": "gal-2",
+      "title": "Quantix Technical Presentation",
+      "category": "Presentations",
+      "image": "/portfolio/uploads/quantix-presentation-speaking.png",
+      "caption": "Delivering presentation on Mathematics in Smart Games using AI at Rajamma Hall",
+      "visible": true
+    },
+    {
+      "id": "gal-3",
+      "title": "Quantix Presentation Stage View",
+      "category": "Presentations",
+      "image": "/portfolio/uploads/quantix-presentation-slide.png",
+      "caption": "Stage view presenting problem statement and AI game algorithms",
+      "visible": true
+    },
+    {
+      "id": "gal-4",
+      "title": "SPECIANCIENS Certificate Presentation",
+      "category": "Awards",
+      "image": "/portfolio/uploads/specanciens-award.png",
+      "caption": "Receiving Best Performing Member recognition certificate from SPECIANCIENS Alumni Association leadership",
+      "visible": true
+    },
+    {
+      "id": "gal-5",
+      "title": "IBM Generative AI Certification",
+      "category": "Certificates",
+      "image": "/portfolio/uploads/ibm-gen-ai-certificate.png",
+      "caption": "IBM SkillsBuild Introduction to Generative AI Completion Certificate",
+      "visible": true
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "St. Peter's Engineering College",
+      "degree": "B.Tech",
+      "specialization": "Computer Science Engineering",
+      "startYear": "2025",
+      "endYear": "2029",
+      "grade": "Currently Pursuing",
+      "description": "Focusing on Core Computer Science subjects, Artificial Intelligence, Machine Learning, Data Structures, and Software Development.",
+      "order": 1
+    },
+    {
+      "id": "edu-2",
+      "institution": "SR Junior College, Kukatpally",
+      "degree": "Intermediate",
+      "specialization": "MPC (Mathematics, Physics, Chemistry)",
+      "startYear": "2023",
+      "endYear": "2025",
+      "grade": "98.8%",
+      "description": "Higher secondary education with high academic achievement in MPC stream.",
+      "order": 2
+    },
+    {
+      "id": "edu-3",
+      "institution": "Bhairava Vidya Bhavan High School",
+      "degree": "SSC",
+      "specialization": "General Studies",
+      "startYear": "2022",
+      "endYear": "2023",
+      "grade": "9.2 CGPA",
+      "description": "Secondary School Certificate with top academic standing.",
+      "order": 3
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "organization": "SPECIANCIENS — The Alumni Association of St. Peter's Engineering College",
+      "position": "Junior Associate — Projects Team",
+      "startDate": "2025",
+      "endDate": "Present",
+      "description": "Member of SPECIANCIENS, the official registered Alumni Association of St. Peter's Engineering College, connecting alumni, students, and industry through mentorship and events.",
+      "responsibilities": [
+        "Member of SPECIANCIENS, the official registered Alumni Association of St. Peter's Engineering College, connecting alumni, students, and industry through mentorship and events.",
+        "Served on the Projects Team, contributing to association initiatives and on-ground support for events.",
+        "Collaborated with fellow team members to ensure smooth execution of alumni-student networking events and programs."
+      ],
+      "logo": "/portfolio/uploads/specanciens-award.png",
+      "order": 1
+    }
+  ],
+  "views": {
+    "count": 6
+  },
+  "messages": [
+    {
+      "id": "msg-1787065402505-uf2ap",
+      "name": "Test User",
+      "email": "test@example.com",
+      "subject": "Test Subject",
+      "message": "Test Message details.",
+      "createdAt": "2026-08-18T15:03:22.505Z",
+      "read": false
+    },
+    {
+      "id": "msg-1787065149452-n0ngl",
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "subject": "Project Inquiry",
+      "message": "Hello Tatapudi, I would love to collaborate on an AI project!",
+      "createdAt": "2026-08-18T14:59:09.452Z",
+      "read": false
+    }
+  ]
+}
